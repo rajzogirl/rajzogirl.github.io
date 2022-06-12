@@ -1,0 +1,136 @@
+html{
+	font-family: Arial;
+    margin: auto;
+}
+body{
+    margin: auto;
+    background-color:lightgray;
+    background-size: cover;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+nav li{
+  float: left;
+}
+nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover{
+  background-color: #111;
+}
+h2{
+    text-align: center;
+}
+#baner{
+    Height: 300px;
+    background-image: url("baner2.jpg");
+    background-size: cover;
+}
+#baner h1{
+    text-align:center;
+    height:80px;
+    color: white;
+    margin-top:10px;
+    padding: 10px;
+}
+#baner img{
+    margin-left: 150px;
+}
+#main{
+    width: 100%;
+	float: left;
+	text-align: center;
+}
+#main p{
+    margin-left:  100px;
+    margin-right:  100px;
+}
+#footer{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+#lewy-footer{
+    float: left;
+    width:50%;
+    color: white;
+}
+#lewy-footer p{
+    padding: 0;
+	color: white;
+	text-align: center;
+}
+#prawy-footer{
+    float: right;
+    width:50%;
+    color: white;
+}
+#prawy-footer p{
+    padding: 0;
+    float: center;
+    text-align: center;
+}
+#prawy-footer img{
+    width: 45px;
+    height: 45px;
+}
+input[type=text], input[type=data], input[type=email], select, textarea{
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: Arial;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit]{
+    background-color: #04AA6D;
+    color: white;
+    margin: 15px 250px 15px 15px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+.col-20{
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+}
+.col-20 label{
+    float: right;
+    margin-left: 150px;
+}
+.col-80{
+  float: left;
+  width: 80%;
+  margin-top: 6px;
+}
+.col-80 textarea, input{
+    margin-right: 200px;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type=checkbox]{
+    margin-right: 0;
+}
